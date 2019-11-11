@@ -1,6 +1,7 @@
 #!/home/z7zyi2hwe9l8/.local/bin/python3.8
 from wsgiref.handlers import CGIHandler
-path.insert(0, '/home/z7zyi2hwe9l8/public_html/website/app/')
+import os
+os.path.insert(0, '/home/z7zyi2hwe9l8/public_html/website/')
 from __init__ import app
 
 if __name__ == "__main__":
