@@ -2,7 +2,7 @@
 from wsgiref.handlers import CGIHandler
 import sys
 sys.path.insert(0, '/home/z7zyi2hwe9l8/public_html/website/')
-from __init__ import app
+from app import app
 
 class ProxyFix(object):
    def __init__(self, app):
